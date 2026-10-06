@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="mcp-drive is a locally operated tool for authorized Google Drive file transfers through the Model Context Protocol.">
+  <title>mcp-drive — Google Drive file transfers</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header><a class="wordmark" href="./">mcp-drive<span aria-hidden="true">↗</span></a><nav aria-label="Main"><a href="privacy/">Privacy policy</a><a href="https://github.com/jacheut">Developer</a></nav></header>
+  <main id="main">
+    <section class="hero">
+      <p class="eyebrow">Google Drive · Local MCP tool</p>
+      <h1>Your files.<br>Your instructions.</h1>
+      <p class="lead">mcp-drive connects a locally operated MCP client to Google Drive for file uploads, downloads, folder listings, and sharing links.</p>
+      <a class="button" href="privacy/">How your data is handled <span aria-hidden="true">↗</span></a>
+      <p class="small">A personal utility maintained by <a href="https://github.com/jacheut">jacheut</a>. This website is an information page; it does not sign you in or access your Drive.</p>
+    </section>
+    <section class="overview" aria-labelledby="capabilities">
+      <p class="eyebrow">What the application does</p><h2 id="capabilities">A direct connection<br>for file transfers.</h2>
+      <dl class="features">
+        <div><dt><span>01</span>Upload &amp; update</dt><dd>Send a local file to an authorized Drive folder, or replace a specific file while preserving its file ID.</dd></div>
+        <div><dt><span>02</span>Download &amp; list</dt><dd>Save requested file content to a local destination and inspect folder metadata to find the correct file.</dd></div>
+        <div><dt><span>03</span>Share deliberately</dt><dd>Retrieve existing sharing links. Creating an “anyone with the link” reader permission requires an explicit upload option.</dd></div>
+      </dl>
+    </section>
+    <section class="note" aria-labelledby="authorization"><h2 id="authorization">Authorization is separate.</h2><p>The installed application uses Google's OAuth consent flow. It requests the Google Drive scope to work with files and folders your account can access. Credentials are stored in the operator's configured local environment. You can revoke access in your <a href="https://myaccount.google.com/permissions">Google Account permissions</a>.</p><p>mcp-drive is an independent utility, not a Google product. Google Drive is a trademark of Google LLC.</p></section>
+    <section lang="zh-CN" class="translation"><p class="eyebrow">中文简介</p><h2>由你授权的云盘文件工具</h2><p>mcp-drive 在操作者配置的本地环境运行，通过 Google 授权上传、更新、下载文件、查看目录及获取分享链接。本网站只介绍应用，不执行登录或读取云盘。具体数据处理、日志、撤销授权和第三方客户端说明见隐私政策。</p></section>
+  </main>
+  <footer><span>mcp-drive · Maintained by jacheut</span><a href="privacy/">Privacy policy</a></footer>
+</body>
+</html>
